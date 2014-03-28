@@ -1,17 +1,10 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="sales.aspx.vb" Inherits="Sales_sales" %>
+﻿<%@ Page Title="" Language="VB" MasterPageFile="~/MasterPage.master" AutoEventWireup="false" CodeFile="sales.aspx.vb" Inherits="Sales_sales" %>
 
-<!DOCTYPE html>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-    <div>
-    Sales Web Page
+    This is the Sales Web Page
 
-    </div>
-    </form>
-</body>
-</html>
+</asp:Content>
+

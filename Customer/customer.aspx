@@ -1,16 +1,10 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="customer.aspx.vb" Inherits="Customer_customer" %>
+﻿<%@ Page Title="" Language="VB" MasterPageFile="~/MasterPage.master" AutoEventWireup="false" CodeFile="customer.aspx.vb" Inherits="Customer_login" %>
 
-<!DOCTYPE html>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-    <div>
-    Customer Web Page
-    </div>
-    </form>
-</body>
-</html>
+    This is the Customer Page
+
+</asp:Content>
+
