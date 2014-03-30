@@ -38,3 +38,22 @@
     margin: 0 auto;
     border: 1px solid black;
 }
+
+.level1 {
+    color: green;
+    background-color: white;
+    font-variant: small-caps;
+    font-size: large;
+}
+.level2 {
+    color: blue;
+    font-family: Garamond;
+    font-size: medium;
+    background-color: white;
+}
+.hdr_img {
+    float: right;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}

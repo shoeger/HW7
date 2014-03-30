@@ -16,13 +16,22 @@
 <div id="container">
     <div id="header">
 
+        <asp:Image class="hdr_img" ID="Image1" runat="server" Height="58px" ImageUrl="~/logo/IowaLogo.jpg" Width="100px" />
         <h1>Header Text</h1>
 
     </div>
 
     <div id="menu">
 
-       Menu
+        <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" StaticDisplayLevels="1">
+            <LevelMenuItemStyles>
+                <asp:MenuItemStyle CssClass="level1" />
+                <asp:MenuItemStyle CssClass="level2" />
+            </LevelMenuItemStyles>
+
+        </asp:Menu>
+
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" showstartingnode="false"/>
 
     </div>
 
